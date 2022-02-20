@@ -1,0 +1,17 @@
+#head{
+    display:flex;
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    background: #000000;
+
+}
+
+#banner{
+
+    position: absolute;
+    width: 1920px;
+    height: 980px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/banner.jpg);
+
+}
