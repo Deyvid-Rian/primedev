@@ -1,8 +1,15 @@
+#inicio{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 1920px;
+}
+
 #head{
     display:flex;
     position: absolute;
-    width: 1920px;
-    height: 100px;
+    width: 100%;
+    height: 40px;
     background: #000000;
 
 }
@@ -10,8 +17,8 @@
 #banner{
 
     position: absolute;
-    width: 1920px;
-    height: 980px;
+    width: 100%;
+    height: calc(1080px - 40px);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/banner.jpg);
 
 }
