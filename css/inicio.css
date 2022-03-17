@@ -1,3 +1,7 @@
+Body{
+    margin: 0;
+}
+
 #inicio{
     display: flex;
     position: relative;
@@ -9,20 +13,66 @@
     display:flex;
     position: absolute;
     width: 100%;
-    height: 40px;
+    height: 50px;
     background: #000000;
     
 
 }
 
-#banner{
+#head img{
 
-    position: absolute;
-    width: 100%;
-    margin-top: 40px;
-    height: 1080px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    padding: 5px 10px 5px 20px;
 
 }
+
+#banner{
+
+    
+    display:flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    height: 560px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#banner-content{
+    
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    color: #fff;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#banner-content button{
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    padding: 0.05rem 5rem;
+    font-size: 30px;
+    border-radius: 199px;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  #banner-content button:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
