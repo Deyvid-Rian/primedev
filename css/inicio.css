@@ -1,12 +1,15 @@
 Body{
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
 }
 
 #inicio{
     display: flex;
     position: relative;
     width: 100%;
-    height: 1920px;
+    height: 590px;
 }
 
 #head{
@@ -32,7 +35,7 @@ Body{
     align-items: center;
     width: 100%;
     margin-top: 50px;
-    height: 560px;
+    height: 540px;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +43,8 @@ Body{
 }
 
 #banner-content{
-    
+    width: 100%;
+    height: 540px;
     display: flex;
     flex-direction: column;
     font-weight: 600;
