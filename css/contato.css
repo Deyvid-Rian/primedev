@@ -1,4 +1,4 @@
-#equipe{
+#contato{
     flex-direction: column;
     position: relative;
     width: 100%;
@@ -9,7 +9,7 @@
     padding: 20px;
 }
 
-#equipe h1 {
+#contato h1 {
 
     color: #000;
     font-weight: 600;
@@ -17,7 +17,7 @@
 
 }
 
-#equipe h2 {
+#contato h2 {
 
     color: #707070;
     font-weight: 600;
@@ -25,7 +25,7 @@
 
 }
 
-#equipe_content{
+#contato_content{
 
     height: 500px;
     width: 100%;
@@ -35,22 +35,35 @@
     justify-content: center;
 }
 
-#card{
-    width: 300px;
-    height:450px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
-    transition: 0.3s;
-    display: flex;
-    flex-direction: column;
+#contato_content_e{
+
+    width: 50%;
+    height: 100%;
     align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction:column;
+    
+
 }
 
-#card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+#contato_content_e form{
+    
+    display: flex;
+    flex-direction:column;
+    font-weight: 600;
+    color: #707070;
+    font-size: 18px;
 }
 
-#card button{
-
+#contato_content_e form input{
+    border: 1px solid #707070;
+    border-radius: 7px;
+    font-size: 18px;
+    width: 350px;
+    
+}
+#contato_content_e form button{
     margin-top: 8px;
     margin-bottom: 4px;
     color: #fff;
@@ -66,68 +79,50 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-    padding: 0.05rem 3rem;
+    padding: 0.05rem 8rem;
     font-size: 16px;
     border-radius: 199px;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   
 }
 
-#card button:hover{
+#contato_content_e form button:hover{
+
     color: rgb(255, 255, 255);
     background-color: #707070;
     border-color: #707070;
-  }
 
-#card p{
+}
 
+
+
+#contato_content_d{
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#titulo{
     margin: 0;
-    
-
-}
-
-#card img{
-    width: 100%;
-}
-
-#icones a{
-    
-    text-decoration: none;
-
-}
-
-#icones svg{
-    width: 40px;
-    height: 45px;
-    padding: 0 5px;
-}
-
-#icones svg:hover{
-
-    fill: black;
-    transition: 0.5s;
-    opacity: 0.7;
-    
-}
-
-#nome{
-
-    font-size: 25px;
     font-weight: 600;
+    font-size: 18px;
     color: #000;
-
 }
 
-#cargo {
+#dados{
 
+    font-weight: 300;
     font-size: 15px;
-    font-weight: 600;
     color: #707070;
 
 }
 
-#deyvid,
-#hiordan{
-
-    padding: 0 10px;
+#mensagem{
+    border: 1px solid #707070;
+    border-radius: 7px;
+    resize: none;
 }
