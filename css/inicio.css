@@ -47,12 +47,16 @@ Body{
     height: 540px;
     display: flex;
     flex-direction: column;
-    font-weight: 600;
+    font-weight: normal;
     color: #fff;
     font-size: 45px;
     align-items: center;
     justify-content: center;
 
+}
+
+#banner-content p{
+    padding: 10px;
 }
 
 #banner-content button{

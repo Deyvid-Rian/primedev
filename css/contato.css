@@ -20,7 +20,7 @@
 #titulos h1 {
 
     color: #000;
-    font-weight: 600;
+    font-weight: normal;
     font-size: 33px;
 
 }
@@ -28,7 +28,7 @@
 #titulos h2 {
 
     color: #707070;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 25px;
 
 }
