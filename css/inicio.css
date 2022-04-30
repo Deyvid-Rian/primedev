@@ -36,7 +36,7 @@ Body{
     width: 100vw;
     margin-top: 8.5vh;
     height: 91.5vh;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
