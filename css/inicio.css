@@ -40,7 +40,7 @@ Body{
     
 }
 
-#banner-content{
+.banner-content{
     width: 100%;
     height: 540px;
     display: flex;
@@ -53,11 +53,13 @@ Body{
 
 }
 
-#banner-content p{
+.banner-content h1{
     padding: 10px;
+    font-size: 50px;
+    font-weight:normal;
 }
 
-#banner-content button{
+.banner-content button{
     color: #fff;
     background-color: #000000;
     border-color: #000000;
@@ -77,8 +79,18 @@ Body{
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
-  #banner-content button:hover{
+  .banner-content button:hover{
     color: rgb(0, 0, 0);
     background-color: #ffffff;
     border-color: #ffffff;
   }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
