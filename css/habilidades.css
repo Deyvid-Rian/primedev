@@ -29,11 +29,10 @@
 
     height: 500px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 30px solid transparent;
+    display: inline-block;
+    text-align: center;
+    padding-top: 18vh;
+
 }
 
 #habilidades_content svg{
@@ -47,5 +46,152 @@
     fill: black;
     transition: 0.5s;
     opacity: 0.7;
+
+}
+
+
+/*responsividade 960px*/
+
+@media screen and (max-width: 960px){
+   
+    #habilidades_content{
+    
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 19vh;
+    
+    }
+    
+    #habilidades_content svg{
+    
+        width: 90px;
+        padding: 0 5px;
+    }
+}
+
+/*responsividade 768px*/
+
+@media screen and (max-width: 768px){
+
+        #habilidades_content{
+        
+            height: 500px;
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            padding-top: 15vh;
+        
+        }
+        
+        #habilidades_content svg{
+        
+            width: 90px;
+            padding: 0 4px;
+        }
+
+        #habilidades h1 {
+
+            color: #000;
+            font-weight: 600;
+            font-size: 33px;
+        
+        }
+        
+        #titulos h2{
+        
+            color: #707070;
+            font-weight: 600;
+            font-size: 19px;
+            padding-bottom: 4vh;
+        
+        }
+}
+
+
+/*responsividade 480px*/
+
+@media screen and (max-width: 480px){
+
+    #habilidades_content{
+        
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 4vh;
+        
+    
+    }
+    
+    #habilidades_content svg{
+    
+        width: 90px;
+        padding: 0 2px;
+    }
+
+    #habilidades h1 {
+
+        color: #000;
+        font-weight: 600;
+        font-size: 33px;
+        padding-top: 1.5vh;
+    
+    }
+    
+    #titulos h2{
+    
+        color: #707070;
+        font-weight: 600;
+        font-size: 19px;
+        text-align: center;
+    
+    }
+
+}
+
+
+/*responsividade 320px*/
+
+@media screen and (max-width: 320px){
+
+    #habilidades_content{
+        
+        height: 400px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding-bottom: 10vh;
+        padding: 0 0 77vh 0;
+        
+    
+    }
+    
+    #habilidades_content svg{
+    
+        width: 70px;
+        padding: 0 2px;
+    }
+
+    #habilidades h1 {
+
+        color: #000;
+        font-weight: 600;
+        font-size: 33px;
+        padding:0;
+    
+    }
+    
+    #titulos h2{
+    
+        color: #707070;
+        font-weight: 600;
+        font-size: 19px;
+        text-align: center;
+        padding-bottom:4vh;
+        line-height: 21px;
+    
+    }
 
 }

@@ -17,7 +17,7 @@
     flex-direction: column;
 }
 
-#titulos h1 {
+#contato h1 {
 
     color: #000;
     font-weight: normal;
@@ -25,7 +25,7 @@
 
 }
 
-#titulos h2 {
+#contato h2 {
 
     color: #707070;
     font-weight: 300;
