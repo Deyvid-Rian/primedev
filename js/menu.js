@@ -3,3 +3,9 @@ function onClickMenu(){
 	document.getElementById("nav").classList.toggle("change");
 	document.getElementById("menu-bg").classList.toggle("change-bg")
 }
+
+function mudarCor(){
+
+	document.getElementByClass("bar").style.backgroundColor = '#fff';
+
+}

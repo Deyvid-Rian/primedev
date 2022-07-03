@@ -8,11 +8,14 @@
     <link rel="icon" href="img/ico.png" type="image/png">
 
     <title>Prime Desenvolvimento Web</title>
+    
 
 </head>
 
 <body>
     
+<div id="contentg"  onMouseLeave="abrir()">
+
     <div class="sand">
         <div id="menu-bar">
 			<div id="menu" onclick="onClickMenu()">
@@ -308,6 +311,16 @@
             </div>
         </div>
     </div>
+</div>
+    <div id="popup"> 
+        <div id="blur"></div>
+        <div id="p">
+            <h1>Espere um pouco!</h1>
+            <p>Já está indo? Fale agora mesmo com um de nossos Dev, teremos o imenso prazer em lhe ajudar!! </p>
+            <button>Entrar em contato</button>
+            <a href="javascript: fechar();">Quero conhecer melhor vocês</a>
+        </div>
+    </div>
     
     <script src="js/fullpage.js"></script>
     <script src="js/menu.js"></script>
@@ -320,7 +333,7 @@
 
     <script src="js/particles.js"></script>
     <script src="js/config_particles.js"></script>
-
+    <script src="js/popup.js"></script>
 
 
 </body>

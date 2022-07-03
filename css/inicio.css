@@ -5,6 +5,12 @@ Body{
     background-color:#fff;
 }
 
+#contentg{
+    width: 100%;
+    height: 100%;
+
+}
+
 #inicio{
     display: flex;
     position: relative;
