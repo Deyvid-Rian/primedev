@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="all.css">
+    <link rel="icon" href="./img/ico.png" type="image/png">
+    <title>Prime Desenvolvimento Web</title>
+
 </head>
 <body>
     
+    <div class="sand">
+        <div id="menu-bar">
+			<div id="menu" onclick="onClickMenu()">
+				<div id="bar1" class="bar"></div>
+				<div id="bar2" class="bar"></div>
+				<div id="bar3" class="bar"></div>
+
+			</div>
+			<ul class="nav" id="nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Sobre</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Galeria</a></li>
+				<li><a href="#">Contacto</a></li>
+
+			</ul>
+
+		</div>
+		<div class="menu-bg" id="menu-bg"></div>
+    
+    </div>
+
+    <div id="fullpage">
+
+    </div>
+
+    <script src="js/fullpage.js"></script>
+    <script src="js/menu.js"></script>
+
+    <script>
+        new fullpage('#fullpage',{
+            navigation: true
+        })
+    </script>
 </body>
 </html>
