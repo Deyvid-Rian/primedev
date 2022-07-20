@@ -90,6 +90,11 @@
     width: 100%;
 }
 
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+
 #icones a{
     
     text-decoration: none;

@@ -25,11 +25,11 @@
 
 			</div>
 			<ul class="nav" id="nav">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Galeria</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li data-anchor="inicio"><a href="#inicio">Início</a></li>
+				<li data-anchor="sobre"><a href="#sobre">Sobre</a></li>
+				<li data-anchor="habilidades"><a href="#habilidades">Habilidades</a></li>
+				<li data-anchor="equipe"><a href="#equipe">Equipe</a></li>
+				<li data-anchor="contato"><a href="#contato">Contato</a></li>
 
 			</ul>
 
@@ -55,7 +55,7 @@
                 <div class ="banner-content">
                     
                     <h1>Desenvolvimento para a sua empresa.</h1>
-                    <button>CONHECER!</button>
+                    <a href="#sobre"><button data-anchor="sobre">CONHECER!</button></a>
 
                     
 
@@ -170,9 +170,9 @@
 
                         <img src="img/deyvid.jpg" alt="deyvid">
 
-                        <p id="nome">DEYVID RIAN</p>
+                        <p id="nome">DEYVID TIMOTEO</p>
                         <p id="cargo">PROGRAMADOR | DESIGNER</p>
-                        <button>VER CURRICULO</button>
+                        <button><a href="deyvid/">VER CURRICULO</a></button>
                         
                         <div id="icones">
                             <a href="" id="insta">
@@ -221,7 +221,7 @@
 
                         <p id="nome">HIORDAN FREIRE </p>
                         <p id="cargo">PROGRAMADOR</p>
-                        <button>VER CURRICULO</button>
+                        <button><a href="hiordan/">VER CURRICULO</a></button>
                         
                         <div id="icones">
                             <a href="" id="insta">
@@ -329,7 +329,10 @@
 
     <script>
         new fullpage('#fullpage',{
-            navigation: true
+            scrollingSpeed: 500,
+            navigation: true,
+            anchor:['inicio', 'sobre', 'habilidades', 'equipe', 'contato']
+
         })
     </script>
 
