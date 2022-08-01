@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    
+    <scroll-container>
 <div id="contentg"  onMouseLeave="abrir()">
 
     <div class="sand">
@@ -25,6 +25,8 @@
 
 			</div>
 			<ul class="nav" id="nav">
+                <br>
+                <br>
 				<li data-anchor="inicio"><a href="#inicio">Início</a></li>
 				<li data-anchor="sobre"><a href="#sobre">Sobre</a></li>
 				<li data-anchor="habilidades"><a href="#habilidades">Habilidades</a></li>
@@ -323,7 +325,7 @@
             <a href="javascript: fechar();"><span></span>Quero conhecer melhor vocês</a>
         </div>
     </div>
-    
+</scroll-container>
     <script src="js/fullpage.js"></script>
     <script src="js/menu.js"></script>
 
@@ -331,11 +333,15 @@
         new fullpage('#fullpage',{
             scrollingSpeed: 500,
             navigation: true,
-            anchor:['inicio', 'sobre', 'habilidades', 'equipe', 'contato']
+            anchor:['inicio', 'sobre', 'habilidades', 'equipe', 'contato'],
+            scrollOverflow: true,
+            scrollBar: true,
+            scrollHorizontally: false
 
         })
     </script>
 
+    <script src="js/corMenu.js"></script>
     <script src="js/particles.js"></script>
     <script src="js/config_particles.js"></script>
     <script src="js/popup.js.."></script>

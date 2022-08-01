@@ -14,14 +14,14 @@ Body{
 #inicio{
     display: flex;
     position: relative;
-    width: 100vw;
+    width: 98vw;
     height: 91.5vh;
 }
 
 #head{
     display:flex;
     position: absolute;
-    width: 100vw;
+    width: 98vw;
     height: 8.5vh;
     
 
@@ -29,7 +29,7 @@ Body{
 
 #head img{
 
-    margin: 2vh 1vh 1vw 83vw;
+    margin: 2vh 1vh 1vw 82vw;
     width: 15vw;
     height:7.5vh;
 
@@ -40,7 +40,7 @@ Body{
     
     display:flex;
     align-items: center;
-    width: 100vw;
+    width: 98.75vw;
     height: 100vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/banner.jpg);
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ Body{
   }
   #particles-js {
     position: relative;
-    width: 100%;
+    width: 97vw;
     height: 100%;
     background-image: url("");
     background-repeat: no-repeat;
